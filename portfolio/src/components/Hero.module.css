@@ -1,0 +1,107 @@
+@import "../vars.css";
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding-top: 49px;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: var(--color-bg);
+    color: var( --color-text);
+
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+
+}
+.title{
+    font-size: 71px;
+    font-weight: 500;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+.description{
+
+    font-size: 26px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+    background: linear-gradient(
+        90deg,
+        rgb(253, 251, 251) 70%,
+        rgba(255, 255, 255, 0) 120%
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+
+}
+.contactbtn{
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 2px  2px rgba(114, 4, 4, 0.25);
+}
+.heroimg{
+    width: 45%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 250px;
+    min-width: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+  }
+  @media  screen and (max-width:830px) {
+    .container{
+        flex-direction: column-reverse;
+
+
+    }
+    .content{
+        align-items:center;
+       
+    }
+    .title{
+        font-size: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+    .description{
+        font-size: 20px;
+        font-style: oblique;
+    }
+    .heroimg{
+        width: 80%;
+    }
+  }
+  
