@@ -1,0 +1,61 @@
+@import "../vars.css";
+.clientcont{
+    
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+     padding-top: 49px;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: var(--color-bg);
+    color: var( --color-text);
+}
+.title{
+    font-size: 71px;
+    font-weight: 500;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+.description{
+
+    font-size: 27px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+    background: linear-gradient(
+        90deg,
+        rgb(253, 251, 251) 70%,
+        rgba(255, 255, 255, 0) 120%
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+
+}
+.bmaa{
+    border: 2px solid black;
+   
+
+    background-color:var(--color-primary) ;
+}
+.companies{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.satya{
+    border: 2px solid black;
+   
+
+    background-color:var(--color-primary) ;
+}

@@ -13,16 +13,19 @@
 
 
 }
+body{
+    overflow-x: hidden;
+}
 .topBlur {
     position: absolute;
-    width: 50vw;
-    height: 50vw;
+    width: 20vw;
+    height: 30vw;
  
     top: -128px;
     left: -10vw;
     border-radius: 764px;
-    background: rgba(201, 212, 230, 0.7);
-    filter: blur(1000px);
+    background:rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
     z-index: 0;
   }
   

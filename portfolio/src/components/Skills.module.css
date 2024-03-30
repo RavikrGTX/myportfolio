@@ -1,3 +1,79 @@
 .skills{
-    background-color: var(--color-bg)
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+    
+    flex-direction: column;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding-left: 10%;
+    padding-right: 10%;
+   
 }
+.title{
+    font-size: 71px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 33px;
+    
+    font-family: var(--font-roboto);
+    background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.description{
+    font-size: 27px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+    text-align:left;
+    background: linear-gradient(
+        90deg,
+        rgb(253, 251, 251) 70%,
+        rgba(255, 255, 255, 0) 120%
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+}
+
+.frontimg{
+    width: 50px;
+}
+.backimg{
+    width: 50px;
+}
+.uiimg{
+    width: 45px;
+    border-radius: 50%;
+    
+}
+
+.skillbar{
+    border: 2px solid black;
+    display: flex;
+gap: 10px;
+    margin: 1rem ;
+    padding: 1.5rem 2rem;
+background-color: var(--color-primary);
+    
+    
+}
+.skillbar:hover{
+background: transparent;
+}
+
+.skillbartext{
+    font-weight: 500;
+    font-size: 20px;
+}
+@media  screen and (max-width:830px) {
+    
+    .skillbartext{
+        font-size: 0.9rem;
+    }
+  }
+  
